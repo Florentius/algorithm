@@ -4,6 +4,7 @@ using namespace std;
 
 const int INF = 987654321;
 
+
 string N;
 int cache[10002];
 
@@ -56,10 +57,10 @@ int main(void)
 
   for (int i = 0; i < test_case; i++)
     {
-      for(int j = 0; j < 10002; j++)
-	cache[j] = -1;
+	  for(int j = 0; j < 10002; j++)
+		cache[j] = -1;
       cin >> N;
-      cout << memorize(0) << endl;
+      cout << N << endl;
     }
   return 0;
 }
